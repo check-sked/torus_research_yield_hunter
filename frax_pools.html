@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/frax_style.css" />
+    <title>Torus Pool Hunter</title>
+  </head>
+  <body>
+    <div id="header-container">
+      <h1>Frax Pools</h1>
+      <a href="index.html"
+        ><img src="./assets/images/home.png" id="home" alt="Home icon"
+      /></a>
+    </div>
+    <div class="form-container">
+      <form id="form">
+        <div class="form-group">
+          <label for="pool_tokens">Select a pool token</label>
+          <select name="pool_tokens" id="pool_tokens">
+            <option value="">View All Tokens</option>
+            <option value="frax">FRAX</option>
+            <option value="fxs">FXS</option>
+            <option value="frxeth">frxETH</option>
+            <option value="fpi">FPI</option>
+            <option value="dai">DAI</option>
+            <option value="usdc">USDC</option>
+            <option value="usdt">USDT</option>
+            <option value="busd">BUSD</option>
+            <option value="gusd">GUSD</option>
+            <option value="susd">sUSD</option>
+            <option value="cvx">CVX</option>
+            <option value="cvxcrv">cvxCRV</option>
+            <option value="cvxFXS">cvxFXS</option>
+            <option value="avax">AVAX</option>
+            <option value="pitchfxs">pitchFXS</option>
+            <option value="ftm">FTM</option>
+            <option value="matic">MATIC</option>
+            <!-- options... -->
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="chain">Select a chain</label>
+          <select name="chain" id="chain">
+            <option value="">View All Chains</option>
+            <option value="arbitrum">Arbitrum</option>
+            <option value="aurora">Aurora</option>
+            <option value="bsc">Binance Smart Chain</option>
+            <option value="ethereum">Ethereum</option>
+            <option value="evmos">Evmos</option>
+            <option value="fantom">Fantom</option>
+            <option value="harmony">Harmony</option>
+            <option value="moonbeam">Moonbeam</option>
+            <option value="moonriver">Moonriver</option>
+            <option value="optimism">Optimism</option>
+            <option value="polygon">Polygon</option>
+            <option value="solana">Solana</option>
+            <!-- options... -->
+          </select>
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+          <a target="_blank" href="https://twitter.com/home"
+        ><img src="./assets/images/torus_res_logo.png" id="torus-img" alt="Home icon" style="max-width: 250px;
+        max-height: 250px;
+        display: block;
+        margin: 25px auto 0 auto;"
+      />
+    </div>
+  </body>
+  <script src="./assets/js/frax_script.js"></script>
+</html>

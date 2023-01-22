@@ -1,0 +1,64 @@
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 15px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0;
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+  margin: 0 25px;
+}
+
+.title {
+  font-size: 12px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  margin: 0 15px;
+}
+
+.center {
+  text-align: center;
+  margin: 25px 0;
+  margin-top: 75px;
+}
+
+.center a {
+  margin: 15px;
+}
+
+.center img {
+  width: 200px;
+  height: 85px;
+}
+
+.center-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.text-left {
+  width: 50%;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.text-right {
+  width: 50%;
+  text-align: center;
+  margin-left: 5px;
+}

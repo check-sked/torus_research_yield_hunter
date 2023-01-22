@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Torus Pool Hunter</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">Torus Research 🟣 Pool Hunter</h1>
+    <div class="container">
+      <div class="box">
+        <p class="title">Search All Pools</p>
+        <a href="#">
+          <img
+            src="./assets/images/all.png"
+            width="30px"
+            height="30px"
+            onclick="createCSV()"
+          />
+        </a>
+      </div>
+      <div class="box" id="assets">
+        <p class="title">Search Pools by Assets</p>
+        <a href="poolsByAsset.html">
+          <img src="./assets/images/assets.png" width="30px" height="30px" />
+        </a>
+      </div>
+      <div class="box">
+        <p class="title">Search Pools with Frax Assets</p>
+        <a href="frax_pools.html">
+          <img src="./assets/images/frax.png" width="30px" height="30px" />
+        </a>
+      </div>
+    </div>
+    <div class="center">
+      <a target="_blank" href="https://twitter.com/TorusResearch">
+        <img
+          src="./assets/images/torus_res_logo.png"
+          alt="Home icon"
+          id="torus-img"
+        />
+      </a>
+    </div>
+    <div class="center-div">
+      <a
+        target="_blank"
+        class="text-left"
+        href="https://www.patreon.com/torusresearch"
+        >✨Subscribe to our newsletter✨</a
+      >
+      <a target="_blank" class="text-right" href="https://github.com/check-sked"
+        >✨Check out our other data tools✨</a
+      >
+    </div>
+  </body>
+  <script src="./assets/js/all_pools.js"></script>
+</html>

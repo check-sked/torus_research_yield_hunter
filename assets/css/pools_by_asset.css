@@ -1,0 +1,26 @@
+#header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+h1 {
+  margin-right: auto;
+}
+
+a {
+  margin-left: auto;
+}
+
+#center-form {
+  width: 50%; /* adjust as needed */
+  margin: 0 auto; /* centers the form horizontally */
+  text-align: center; /* centers the content within the form vertically */
+}
+
+label,
+input,
+button {
+  display: block; /* makes each element take up the full width of its parent and stack on top of each other */
+}

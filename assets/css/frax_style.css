@@ -1,0 +1,60 @@
+#header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+h1 {
+  margin-right: auto;
+}
+
+a {
+  margin-left: auto;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#home {
+  max-width: 30px;
+  max-height: 30px;
+  display: block;
+  float: right;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-group {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+label {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+select {
+  width: 100%;
+}
+
+input {
+  margin-top: 10px;
+}
